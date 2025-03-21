@@ -16,7 +16,7 @@ Backend: Node.js, Express, Socket.io
 📦 Installation & Running Locally
 
 Clone the repository:
-git clone https://github.com/YOUR-USERNAME/live-poll-app.git
+git clone https://github.com/manavnailwal/live-poll-app
 cd live-poll-app
 
 Install dependencies:
