@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Poll App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Create a Live Poll</h1>
+    <form id="pollForm">
+      <input type="text" id="question" placeholder="Poll Question" required>
+      <input type="text" id="option1" placeholder="Option 1" required>
+      <input type="text" id="option2" placeholder="Option 2">
+      <input type="text" id="option3" placeholder="Option 3">
+      <input type="text" id="option4" placeholder="Option 4">
+      <button type="submit">Create Poll</button>
+    </form>
+
+    <div id="pollContainer"></div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
